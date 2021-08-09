@@ -1,0 +1,19 @@
+$textAlignCenter: center;
+$paddingGeneralUtilizado: 1rem;
+$paddingSubtituloContainer: 2rem;
+$boxShadowTamaño: 0 10px 10px;
+$boxShadowCardMedida: 1em 1em 1em;
+$boxShadowMargin: 35px;
+$boxShadowMarginCard: 20px;
+$boxShadowMarginBottomCard: 50px;
+$fontSizeIntroductionObjetivos: 1.6rem;
+$borderRadiusBoxShadowCard: 50px;
+$boderBoxShadowCard: 0.02px;
+$paddingBoxShadowCard: 15px;
+
+/* Seccion "Objetivos" */
+.container__imagen{padding: $paddingGeneralUtilizado;}
+.subtitulo__container{text-align: $textAlignCenter; padding: $paddingSubtituloContainer;}
+.box-shadow{background-color:$colorPink; box-shadow: $boxShadowTamaño $colorGris; margin: $boxShadowMargin;}
+.box__shadow--card {text-align: $textAlignCenter; background-color: $colorPink; border-radius: $borderRadiusBoxShadowCard; box-shadow: $boxShadowCardMedida $colorGris; border: $boderBoxShadowCard $valorSolid /* #00000010 */; padding: $paddingBoxShadowCard; margin: $boxShadowMarginCard; margin-bottom: $boxShadowMarginBottomCard;}
+.title__introduction--objetivos{text-align: $textAlignCenter; font-size: $fontSizeIntroductionObjetivos; font-weight: $weightLetraLighter; color: $colorWhiteSmoke; }

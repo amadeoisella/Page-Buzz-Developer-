@@ -1,0 +1,4 @@
+$minHeightCarouselItem: 200px;
+$heightCarouselItem: 35vh;
+/* Carousel Propio */
+.carousel-item {height: $heightCarouselItem; min-height: $minHeightCarouselItem;}

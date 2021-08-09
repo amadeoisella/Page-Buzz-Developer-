@@ -1,0 +1,6 @@
+$backgoundImageFooter: linear-gradient(to bottom, #FB54E6, #000000);
+$textAlignCenter: center;
+
+/* Footer */
+.footerBg{background-image: $backgoundImageFooter;}
+.footerBg div{text-align: $textAlignCenter;}

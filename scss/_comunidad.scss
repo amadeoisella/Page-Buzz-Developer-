@@ -1,0 +1,25 @@
+$fontSizeTtitleIntroductionComunidad: 1.3rem;
+$textAlignCenter: center;
+$weightLetraLighter: lighter;
+$colorWhiteSmoke:#F7EDF6;
+
+$letraBody: 'Poppins';
+$vista:desktop;
+$weightLetraBold: bold;
+$weightLetraLighter: lighter;
+$fontSizeGeneral: 22px;
+$textAlignCenter: center;
+$alignItemsCenter: center;
+$valorCero: 0;
+$valorSolid: solid;
+
+/* Section Comunidad */
+.title__introduction--comunidad{text-align: $textAlignCenter; font-size: $fontSizeTtitleIntroductionComunidad; font-weight: $weightLetraLighter; color: $colorWhiteSmoke; }
+/* If */
+.title__introduction {
+    @if ($colorPink == #FB54E6){
+        color: #FB54E6;
+    }@else if ($colorPink == #000000) {
+        color: #000000;
+    }
+}

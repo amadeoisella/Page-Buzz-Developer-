@@ -1,0 +1,105 @@
+/* Genericos 1 */
+$letraBody: 'Poppins';
+$vista:desktop;
+$weightLetraBold: bold;
+$weightLetraLighter: lighter;
+$fontSizeGeneral: 22px;
+$textAlignCenter: center;
+$alignItemsCenter: center;
+$valorCero: 0;
+$valorSolid: solid;
+$linearGradientCard1: (-90deg, #8E2DE2, #4A00E0);
+$boxShadowCard1: 1px 5px 15px #a2a2a2;
+$linearGradientCard2: (-90deg, #BF019F, #F28A57);
+$boxShadowCard2: 1px 7px 15px #a2a2a2;
+$boxShadowLongCardSection: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+$boxShadowCardSection: 1px 1px 20px #D2D2D2;
+
+/* Generales */
+*{box-sizing: border-box; font-family: $letraBody; font-weight: $weightLetraBold; font-size: $fontSizeGeneral;}
+body {background-color: $colorBody; color: $colorWhiteSmoke;}
+.col-lg-12{padding-left:$valorCero; padding-right:$valorCero;}
+
+/* ****************** */
+
+/* PaddingTB de rows */
+.paddingTB{padding-top: 50px;padding-bottom: 50px;}
+
+/* ****************** */
+
+/* Container-Fluid */
+.container-fluid{padding-left:$valorCero; padding-right:$valorCero;}
+
+/* ****************** */
+
+/* Rows */
+.row{margin-right: 0px; margin-left: 0px;}
+
+/* ****************** */
+
+/* Clase Comodín para usos varios */
+.wildcard__class{text-align: $textAlignCenter;}
+
+/* ****************** */
+
+/* If - de vista "Mobile" y "Desktop" */
+  @if $vista == desktop {
+     /* vista desktop  */
+  @media only screen and (max-width: 767px){
+    *{
+        font-size: 100%;
+    }
+    }  
+ }@else if $vista == mobile {
+    /* vista mobile */
+ @media only screen and (min-width: 768px){
+     *{
+         font-size: 100%;
+     }
+    }
+}  
+ 
+/* If - este va en todos los "title__introduction" menos en la "Section Objetivos" */
+.title__introduction {
+    @if ($colorPink == #FB54E6){
+        color: #FB54E6;
+    }@else if ($colorPink == #000000) {
+        color: #000000;
+    }
+}
+
+/* Each */
+@each $color in magenta, yellow, lime{
+    .#{$color} {
+        color:#{$color}!important;
+    }
+}
+
+/* For */
+@for $i from 1 through 3 {
+    .label__color:nth-child(#{$i}) {
+        color: lighten($colorPink, $i *5  );
+    }
+}
+
+/* tarjeta 1 */
+.card-header-first {
+    margin-top: -40px;
+    height: 120px;
+    background: linear-gradient $linearGradientCard1;
+    box-shadow: $boxShadowCard1; }
+  
+  /* tarjeta 2 */
+  .card-header-second {
+    box-shadow: $boxShadowCard2;
+    margin: -25px -25px 0px -25px;
+    height: 120px;
+    background: linear-gradient $linearGradientCard2;}
+  
+  /* efecto shadows para las tarjetas */
+  .card-section{
+    box-shadow:  $boxShadowLongCardSection;
+    &:hover{
+    box-shadow: $boxShadowCardSection;
+    }
+} 

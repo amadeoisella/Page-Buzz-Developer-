@@ -1,0 +1,38 @@
+$letraBody: 'Poppins';
+$vista:desktop;
+$weightLetraBold: bold;
+$weightLetraLighter: lighter;
+$fontSizeGeneral: 22px;
+$textAlignCenter: center;
+$alignItemsCenter: center;
+$valorCero: 0;
+$valorSolid: solid;
+
+
+$valorCero: 0;
+$displayFlex: flex;
+$flexDirection: column;
+$justifyContent: center;
+$widthCienxCiento: 100%;
+$fontSizeh4: 1.5rem;
+$fontSizeErrorPage: 22px;
+$fontSizesLinks: 18px;
+$colorWhiteSmoke:#F7EDF6;
+$animationDuration: 2.5s;
+$animationFillMode: both;
+$animationIterationCount: infinite;
+$animationName: bounce;
+$fontSizeErrorPrincipal: 18px;
+$backgroundImage404: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+
+/* Error - 404 */
+.error-404{margin: $valorCero; font-family: $letraBody;background-image: $backgroundImage404;}
+h4{margin: $valorCero; font-size: $fontSizeh4;}
+.error-message{display: $displayFlex; flex-direction: $flexDirection; align-items: $alignItemsCenter; justify-content: $justifyContent; height: calc(100vh - 100px);width: $widthCienxCiento;}
+.error-message__container{text-align: $textAlignCenter; color: $colorWhiteSmoke;}
+.error-page{font-size: $fontSizeErrorPage;}
+.link__terminos, .link__privacidad, .link__ayuda{font-size: $fontSizesLinks; color: $colorWhiteSmoke;}
+.animated{animation-duration: $animationDuration; animation-fill-mode: $animationFillMode; animation-iteration-count: $animationIterationCount;}
+@keyframes bounce{0%, 20%, 50%, 80%, 10% {transform: translateY(0);} 40%{transform:translateY(-30px);} 60% {transform: translateY(-15px);}}
+.bounce{animation-name: $animationName;}
+.error-principal{font-size: $fontSizeErrorPrincipal; color: $colorWhiteSmoke;}

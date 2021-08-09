@@ -1,0 +1,24 @@
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    *{
+        .biografia__texto--subtitulo, .title__introduction--comunidad, .list-group
+        {
+            font-size: 95%;
+        }
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    *{
+        .card-text, .title__introduction--objetivos
+        {
+            font-size: 95%;
+        }
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    *{
+        .titulo__container
+        {
+            font-size: 110%;
+        }
+    }
+}

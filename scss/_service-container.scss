@@ -1,0 +1,20 @@
+$colorVerde:#43E31B;
+$colorWhiteSmoke:#F7EDF6;
+$weightLetraLighter: lighter;
+$textAlignCenter: center;
+$colorPink:#FB54E6;
+$fontSizeTitularInicial: 24px;
+$paddingGeneralUtilizado: 1rem;
+$fontSizeTituloContainer: 1.5rem;
+$fontSizeIntroductionModalidad: 2rem;
+$directionRow: row;
+$estilos: (color: #F7EDF6, centro: center);
+
+/* Seccion "Service Container" */
+.service__container--titularinicial{color: $colorWhiteSmoke; padding: $paddingGeneralUtilizado; font-size: $fontSizeTitularInicial; text-align: $textAlignCenter;}
+.service__container--img{flex-direction: $directionRow;}
+.titulo__container{font-size: $fontSizeTituloContainer; padding: $paddingGeneralUtilizado; color: $colorVerde;}
+.titulo__container--texto{font-weight: $weightLetraLighter;}
+.title__introduction--modalidad{text-align: $textAlignCenter; font-size: $fontSizeIntroductionModalidad; font-weight: $weightLetraLighter; color: $colorPink;}
+/* Map-get */
+.titulo__container--texto {color: map-get($estilos , color); text-align: map-get($estilos, centro); padding: $paddingGeneralUtilizado;}
