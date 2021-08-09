@@ -1,0 +1,103 @@
+-En el archivo index.html sumé el SEO con las siguientes características:
+
+-Descripción: mediante la etiqueta <meta name description>, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Buzz-Developer es una escuela de programación"
+
+-Palabras clave: mediante la etiqueta <meta name keywords>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "SOMOS, EQUIPO, DESARROLLADORES, CODEAR, FRONT-END, BACK-END, FULL-STACK, DESARROLLADOR, JAVASCRIPT, HTML, CSS, REACT, PHP, FIREBASE, CONTACTO, COMUNIDAD"
+
+-Encabezado: *para el encabezado del h1 utilicé el texto “Buzz Developer”
+	     *para el encabezado del h2 utilicé los textos “Contacto y Carrera”
+	     *para el encabezado del h3 utilicé los textos “Quienes Somos y Porqué Buzz-Developer”. Estos se encuentran dentro de la sección "Cards"
+             *para el encabezado del h4 utilicé el texto “Contacto" que se encuentra en la sección "Footer"
+
+-Titulo: cambie el title a "Buzz-Developer".
+
+************************************************************************************************************************************************************
+
+-En el archivo objetivos.html sumé el SEO con las siguientes características:
+
+-Descripción: mediante la etiqueta <meta name description>, agregué el siguiente párrafo que explica en pocas palabras los objetivos de mi sitio: “Convertite en Full-Stack developer. Salida laboral como desarrollador."
+
+-Palabras clave: mediante la etiqueta <meta name keywords>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "SOMOS, EQUIPO, DESARROLLADORES, CODEAR, FRONT-END, BACK-END, FULL-STACK, DESARROLLADOR, JAVASCRIPT, HTML, CSS, REACT, PHP, FIREBASE, CONTACTO, COMUNIDAD"
+
+-Titulo: cambie el title a "Objetivos".
+
+-Encabezado: *para el encabezado del h3 utilicé el texto “Steve Jobs”. Este se encuentra dentro de la sección "Jumbotron"
+             *para el encabezado del h4 utilicé el texto “Contacto" que se encuentra en la sección "Footer"
+
+************************************************************************************************************************************************************
+
+-En el archivo comunidad.html sumé el SEO con las siguientes características:
+
+-Descripción: mediante la etiqueta <meta name description>, agregué el siguiente párrafo que explica en pocas palabras en lo que referencia a la comunidad de mi sitio: “Canal de discord para intercambio de experiencias con devs."
+
+-Palabras clave: mediante la etiqueta <meta name keywords>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "SOMOS, EQUIPO, DESARROLLADORES, CODEAR, FRONT-END, BACK-END, FULL-STACK, DESARROLLADOR, JAVASCRIPT, HTML, CSS, REACT, PHP, FIREBASE, CONTACTO, COMUNIDAD"
+
+-Titulo: cambie el title a "Comunidad".
+
+-Encabezado: *para el encabezado del h2 utilicé el texto “Comunidad Discord”
+             *para el encabezado del h4 utilicé el texto “Contacto" que se encuentra en la sección "Footer"
+
+************************************************************************************************************************************************************
+
+-En el archivo teambuzz.html sumé el SEO con las siguientes características:
+
+-Descripción: mediante la etiqueta <meta name description>, agregué el siguiente párrafo que explica en pocas palabras en lo que referencia a la comunidad de mi sitio: “Quienes somos? El equipo de Buzz-Developer es un grupo de desarrolladores que ama codear"
+
+-Palabras clave: mediante la etiqueta <meta name keywords>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "SOMOS, EQUIPO, DESARROLLADORES, CODEAR, FRONT-END, BACK-END, FULL-STACK, DESARROLLADOR, JAVASCRIPT, HTML, CSS, REACT, PHP, FIREBASE, CONTACTO, COMUNIDAD"
+
+-Titulo: cambie el title a "Objetivos".
+
+-Encabezado: *para el encabezado del h1 utilicé el texto “Somos Buzz-Developer”. Este se encuentra dentro de la sección "Contenido"
+             *para el encabezado del h4 utilicé el texto “Contacto" que se encuentra en la sección "Footer"
+
+
+************************************************************************************************************************************************************
+
+-En el archivo contacto.html sumé el SEO con las siguientes características:
+
+-Descripción: mediante la etiqueta <meta name description>, agregué el siguiente párrafo que explica en pocas palabras en lo que referencia a la sección contacto de mi sitio: “Ponte en contacto con Buzz-Developer"
+
+-Palabras clave: mediante la etiqueta <meta name keywords>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "SOMOS, EQUIPO, DESARROLLADORES, CODEAR, FRONT-END, BACK-END, FULL-STACK, DESARROLLADOR, JAVASCRIPT, HTML, CSS, REACT, PHP, FIREBASE, CONTACTO, COMUNIDAD"
+
+-Titulo: cambie el title a "Contacto".
+
+-Encabezado: *para el encabezado del h2 utilicé el texto “Contacto”
+             *para el encabezado del h4 utilicé el texto “Contacto" que se encuentra en la sección "Footer"
+
+************************************************************************************************************************************************************
+
+/* SEO /*
+
+-SEO y sus características:
+
+
+-Se ha creado una web responsive.
+
+-Optimización sobre las imagenes.
+
+-Optimización sobre las fonts.
+
+-Nombres de las imágenes incluyendo palabras claves.
+
+-Vigilar futuros problemas de accesibilidad.
+
+-Sume al proyecto "AOS". Pequeña biblioteca para animar elementos en su página mientras se desplaza.
+
+-Descripción: mediante la etiqueta <meta name description>, agregué el siguiente párrafo que explica en pocas palabras en lo que referencia a la sección contacto de mi sitio: “Error!"
+
+-Palabras clave: mediante la etiqueta <meta name keywords>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio para lograr un mejor posicionamiento más rápido.: "SOMOS, EQUIPO, DESARROLLADORES, CODEAR, FRONT-END, BACK-END, FULL-STACK, DESARROLLADOR, JAVASCRIPT, HTML, CSS, REACT, PHP, FIREBASE, CONTACTO, COMUNIDAD"
+
+
+************************************************************************************************************************************************************
+
+"Error 404"
+
+-En el archivo 404.html sumé las siguientes características:
+
+-Creé una página 404 personalizada que redirige a la homepage. Lo que indica este error es que se trata de un enlace roto, defectuoso o que ya no existe y que, por lo tanto, no es posible navegar por él.
+
+-Descripción: mediante la etiqueta <meta name description>, agregué el siguiente párrafo que explica en pocas palabras en lo que referencia a la sección contacto de mi sitio: “Error!"
+
+-Palabras clave: mediante la etiqueta <meta name keywords>, agregué las palabras clave que acompañarán a todas las páginas de mi sitio para lograr un mejor posicionamiento más rápido.: "SOMOS, EQUIPO, DESARROLLADORES, CODEAR, FRONT-END, BACK-END, FULL-STACK, DESARROLLADOR, JAVASCRIPT, HTML, CSS, REACT, PHP, FIREBASE, CONTACTO, COMUNIDAD"
+
+-Titulo: cambie el title a "Error 404".
