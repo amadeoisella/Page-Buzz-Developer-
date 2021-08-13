@@ -1,24 +1,31 @@
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     *{
-        .biografia__texto--subtitulo, .title__introduction--comunidad, .list-group
+        .biografia__texto--subtitulo, .title__introduction--modalidad, .list-group, .title__introduction, .title__introduction--comunidad, .titulo__container--cards, .titulo__container--cardss, .label__color, .contacto, .card-header-title
         {
-            font-size: 95%;
+            font-size: 88%;
         }
     }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     *{
-        .card-text, .title__introduction--objetivos
+        .card-text, .titulo__container--texto, .title__introduction--objetivos, .font-italic, .texto__contacto
         {
-            font-size: 95%;
+            font-size: 85%;
         }
     }
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     *{
-        .titulo__container
+        .titulo__container, .biografia__texto--subtitulo
         {
-            font-size: 95%;
+            font-size: 85%;
+        }
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    *{
+        .email, .copyright{
+            font-size: 75%;
         }
     }
 }

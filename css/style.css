@@ -3307,7 +3307,7 @@ input[type="button"].btn-block {
 
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(240, 11, 240, 0.979); }
+  border-color: magenta !important; }
 
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
@@ -7270,11 +7270,21 @@ body {
 
 /* ****************** */
 /* If - de vista "Mobile" y "Desktop" */
+/* @if $vista == desktop { */
 /* vista desktop  */
-@media only screen and (max-width: 767px) {
-  * {
-    font-size: 100%; } }
-
+/* @media only screen and (max-width: 767px){
+    *{
+        font-size: 100%;
+    }
+    }  
+ }@else if $vista == mobile { */
+/* vista mobile */
+/* @media only screen and (min-width: 768px){
+     *{
+         font-size: 100%;
+     }
+    }
+}   */
 /* If - este va en todos los "title__introduction" menos en la "Section Objetivos" */
 .title__introduction {
   color: #FB54E6; }
@@ -7303,7 +7313,7 @@ body {
 .card-header-first {
   margin-top: -40px;
   height: 120px;
-  background: linear-gradient -90deg, #8E2DE2, #4A00E0;
+  background: linear-gradient -90deg, #BF019F, #F28A57;
   box-shadow: 1px 5px 15px #a2a2a2; }
 
 /* tarjeta 2 */
@@ -7318,10 +7328,6 @@ body {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
   .card-section:hover {
     box-shadow: 1px 1px 20px #D2D2D2; }
-
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-  * .biografia__texto--subtitulo, * .title__introduction--comunidad, * .list-group {
-    font-size: 95%; } }
 
 /* Seccion "Objetivos" */
 .container__imagen {
@@ -7340,8 +7346,8 @@ body {
   text-align: center;
   background-color: #FB54E6;
   border-radius: 50px;
-  box-shadow: 1em 1em 1em grey;
-  border: 0.02px solid;
+  box-shadow: 0.4em 0.4em 0.4em grey;
+  border: none solid;
   padding: 15px;
   margin: 20px;
   margin-bottom: 50px; }
@@ -7361,7 +7367,7 @@ body {
 /* Seccion "Service Container" */
 .service__container--titularinicial {
   color: #F7EDF6;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 24px;
   text-align: center; }
 
@@ -7370,8 +7376,8 @@ body {
 
 .titulo__container {
   font-size: 1.5rem;
-  padding: 1rem;
-  color: #43E31B; }
+  padding: 0.5rem;
+  color: #020C16; }
 
 .titulo__container--texto {
   font-weight: lighter; }
@@ -7379,14 +7385,35 @@ body {
 .title__introduction--modalidad {
   text-align: center;
   font-size: 2rem;
-  font-weight: lighter;
+  font-weight: bolder;
   color: #FB54E6; }
+
+.titulo__container--cards {
+  font-weight: lighter;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: #43E31B; }
+
+.titulo__container--cardss {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: #43E31B; }
 
 /* Map-get */
 .titulo__container--texto {
   color: #F7EDF6;
   text-align: center;
-  padding: 1rem; }
+  padding: 0.5rem; }
+
+.card-text {
+  font-weight: lighter; }
+
+.contacto {
+  font-weight: bolder; }
+
+.title__introduction {
+  font-weight: bolder; }
 
 /* ****************** */
 /* Genericos 1 */
@@ -7414,9 +7441,17 @@ body {
   box-shadow: 1px 1px 20px #d2d2d2; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  * .card-text, * .title__introduction--objetivos {
-    font-size: 95%; } }
+  * .biografia__texto--subtitulo, * .title__introduction--modalidad, * .list-group, * .title__introduction, * .title__introduction--comunidad, * .titulo__container--cards, * .titulo__container--cardss, * .label__color, * .contacto, * .card-header-title {
+    font-size: 88%; } }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-  * .titulo__container {
-    font-size: 110%; } }
+  * .card-text, * .titulo__container--texto, * .title__introduction--objetivos, * .font-italic, * .texto__contacto {
+    font-size: 85%; } }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  * .titulo__container, * .biografia__texto--subtitulo {
+    font-size: 85%; } }
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  * .email, * .copyright {
+    font-size: 75%; } }

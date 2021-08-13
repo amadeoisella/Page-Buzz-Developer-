@@ -8,12 +8,12 @@ $textAlignCenter: center;
 $alignItemsCenter: center;
 $valorCero: 0;
 $valorSolid: solid;
-$linearGradientCard1: (-90deg, #8E2DE2, #4A00E0);
 $boxShadowCard1: 1px 5px 15px #a2a2a2;
 $linearGradientCard2: (-90deg, #BF019F, #F28A57);
 $boxShadowCard2: 1px 7px 15px #a2a2a2;
 $boxShadowLongCardSection: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
 $boxShadowCardSection: 1px 1px 20px #D2D2D2;
+$colorWhiteSmoke:#F7EDF6;
 
 /* Generales */
 *{box-sizing: border-box; font-family: $letraBody; font-weight: $weightLetraBold; font-size: $fontSizeGeneral;}
@@ -80,13 +80,13 @@ body {background-color: $colorBody; color: $colorWhiteSmoke;}
     .label__color:nth-child(#{$i}) {
         color: lighten($colorPink, $i *5  );
     }
-}
+} 
 
 /* tarjeta 1 */
 .card-header-first {
     margin-top: -40px;
     height: 120px;
-    background: linear-gradient $linearGradientCard1;
+    background: linear-gradient $linearGradientCard2;
     box-shadow: $boxShadowCard1; }
   
   /* tarjeta 2 */
@@ -102,4 +102,4 @@ body {background-color: $colorBody; color: $colorWhiteSmoke;}
     &:hover{
     box-shadow: $boxShadowCardSection;
     }
-} 
+}

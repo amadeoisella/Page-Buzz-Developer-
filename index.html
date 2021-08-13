@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- Mi CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="./assets/img/mundo-logo72.png" type="image/png">
+    <link rel="icon" href="./assets/img/logo72.png" type="image/png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Buzz-Developer</title>
     
@@ -24,7 +24,7 @@
           <div class="col-lg-12 col-xs-12"> 
             <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="index.html">
-                  <img src="./assets/img/mundo-logo72.png" width="100" height="100" alt="logo de buzz developer">
+                  <img src="./assets/img/mundo-logo72.png" width="150" height="150" alt="logo mundo de buzz developer">
                 </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -74,11 +74,8 @@
       
       <!-- Section Contenido -->
       <div class="container">
-        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000" class="row paddingTB">
-          <section class="col-lg-12 col-xs-12">
-            <h1 class="title__introduction">Buzz Developer</h1>
-          </section>
-          <section class="col-lg-12 col-xs-12">
+        <section class="col-lg-12 col-xs-12">
+        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" class="row paddingTB">
             <img src="assets/img/buzz-logo72.png" width="300" height="300" alt="irving" class="img-fluid">
           </section>
         </div>
@@ -86,23 +83,52 @@
   
       <!-- Carrer -->
       <section class="container">
-        <div data-aos="fade-up" data-aos-duration="3000" class="row paddingTB">
+        <div data-aos="fade-up" data-aos-duration="2000" class="row paddingTB">
               <section class="col-lg-12 col-xs-12">
-                  <h2 class="title__introduction" id="link-carrera">Carrera</h2>
+                  <h1 class="title__introduction font-weight-bold" id="link-carrera">Carrera</h1>
+                  <br>
                   <p class="biografia">
                     <p class="biografia__texto--subtitulo">Conviertete en un Desarrollador Full-Stack a partir de las últimas tendencias de la industria, con la que vas a adquirir los conocimientos y capacidades técnicas para integrarte en el mercado laboral. Vamos a cubrir:</p>
-                    <ul class="list-group">
-                      <li align=center class="list-group-item list-group-item-danger text-dark">JAVASCRIPT</li>
-                      <li align=center class="list-group-item list-group-item-light text-danger">HTML/CSS</li>
-                      <li align=center class="list-group-item list-group-item-danger text-dark">REACT</li>
-                      <li align=center class="list-group-item list-group-item-light text-danger">FIREBASE</li>
-                      <li align=center class="list-group-item list-group-item-danger text-dark">NODE JS</li>
-                      <li align=center class="list-group-item list-group-item-light text-danger">POSTGRESQL</li>
-                      <li align=center class="list-group-item list-group-item-danger text-dark">API REST</li>
-                      <li align=center class="list-group-item list-group-item-dark">+ MUCHO MÁS!</li>
-                    </ul> 
+                    <div class="row row-cols-1 row-cols-md-2">
+                      <div class="col mb-4">
+                        <div class="card shadow-sm bg-secondary">
+                          <img class="container__imagen" src="./assets/img/python72.png" width="160" height="160" alt="imagen lenguaje programacion python">
+                          <div class="card-body">
+                            <h5 align=center class="card-title titulo__container--cardss">Python</h5>
+                            <p class="card-text text-white">Aprenderás a programar desde cero con python, sin tener ningún conocimiento sobre programación de antes.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mb-4">
+                        <div class="card shadow-sm bg-secondary">
+                          <img class="container__imagen" src="./assets/img/mysql72.png" width="160" height="160" alt="imagen lenguaje programacion mysql">
+                          <div class="card-body">
+                            <h5 align=center class="card-title titulo__container--cardss">MySQL</h5>
+                            <p class="card-text text-white">Aprenderás a usar este lenguaje de acceso a bases de datos que le permite al usuario ejecutar operaciones y administrar datos.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mb-4">
+                        <div class="card shadow-sm bg-secondary">
+                          <img class="container__imagen" src="./assets/img/css72.png" width="160" height="160" alt="imagen lenguaje programacion css">
+                          <div class="card-body">
+                            <h5 align=center class="card-title titulo__container--cardss">CSS</h5>
+                            <p class="card-text text-white">Con este lenguaje aprenderás a cambiar las fuentes, colores, estilos y animaciones de los elementos dentro de tu página web.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col mb-4">
+                        <div class="card shadow-sm bg-secondary">
+                          <img class="container__imagen" src="./assets/img/javascript72.png" width="160" height="160" alt="imagen lenguaje programacion javascript">
+                          <div class="card-body">
+                            <h5 align=center class="card-title titulo__container--cardss">Javascript</h5>
+                            <p class="card-text text-white">JavaScript se utiliza como complemento de HTML y CSS para crear páginas webs, videojuegos, aplicaciones móviles.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   <br>
-                  <button type="button" class="btn btn-secondary btn-lg bg-dark titulo__container">Empezar ya!</button>
+                  <button class="btn btn-sm bg-white"><a class="text-decoration-none font-weight-light titulo__container" href="./404.html">Empezar ya!</a></button>
                 </div>
               </section>
       </section>
@@ -111,30 +137,31 @@
         <section class="container">
           <div class="row paddingTB">
             <div class="col-lg-12 col-xs-12">
-              <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000" class="title__introduction--modalidad">Modalidad</p>
-              <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000" class="title__introduction--objetivos">Estudiá desde la comodidad de tu casa, aprendé a tu ritmo, mirá y pausá los videos las veces que quieras.</p>
+              <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" class="title__introduction--modalidad">Modalidad</p>
+              <br>
+              <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000" class="title__introduction--objetivos">Estudiá desde la comodidad de tu casa, aprendé a tu ritmo, mirá y pausá los videos las veces que quieras.</p>
             </div>
           </div>
         </section>
         <section class="container-fluid">
-          <div data-aos="fade-up" data-aos-duration="3000" class="row">
+          <div data-aos="fade-up" data-aos-duration="1000" class="row">
             <div class="col-lg-4 col-xs-12">
               <div class="box__shadow--card">
-                <img class="container__imagen" src="./assets/img/computer72.png" width="200" height="200" alt="">
-                <p class="titulo__container">Modalidad on-demand</p>
+                <img class="container__imagen" src="./assets/img/computer72.png" width="160" height="160" alt="">
+                <p class="titulo__container">Modalidad</p>
                 <p class="titulo__container--texto">No hay un cronograma predefinido, cada módulo se paga por separado y se puede empezar cuando quieras, siempre que hayas aprobado el módulo anterior.</p>
               </div>
             </div>
             <div class="col-lg-4 col-xs-12">
               <div class="box__shadow--card">
-                <img class="container__imagen" src="./assets/img/checklist72.png" width="200" height="200" alt="">
+                <img class="container__imagen" src="./assets/img/checklist72.png" width="160" height="160" alt="">
                 <p class="titulo__container">Evaluación</p>
                 <p class="titulo__container--texto">Para aprobar cada módulo debés completar un desafío integrador que será evaluado por uno de los profes en github. No hay fecha límite para entregar el trabajo.</p>
               </div>
             </div>
             <div class="col-lg-4 col-xs-12">
               <div class="box__shadow--card">
-                <img class="container__imagen" src="./assets/img/certificate72.png" width="200" height="200" alt="">
+                <img class="container__imagen" src="./assets/img/certificate72.png" width="160" height="160" alt="">
                 <p class="titulo__container">Certificado</p>
                 <p class="titulo__container--texto">Una vez aprobados los desafíos integradores de todos los módulos vas a recibir un certificado digital que podrás compartir con cualquier persona o entidad.</p>
               </div>
@@ -149,33 +176,29 @@
       <div class="container principal">
         <div class="row">
           <!-- tarjeta 1 -->
-          <div data-aos="fade-up" data-aos-duration="3000" class="col-lg-12 col-md-12 mb-4">
+          <div data-aos="fade-up" data-aos-duration="1000" class="col-lg-12 col-md-12 mb-4">
             <div class="card-section border rounded p-3">
               <div class="card-header-first rounded pb-5">
                 <h3 align=center class="card-header-title text-white pt-3">Quienes Somos</h3>
               </div>
               <div class="card-body text-center">
-                <p class= "card-text">Somos un grupo de Desarroladores enfocados en las principales tecnologías requeridas en el mercado actual. 
-                  Las clases en video son dictadas por quien les habla y un grupo de desarrolladores con amplia experiencia en la industria tech.
-                </p>
+                <p class= "card-text">Somos un grupo de Desarroladores enfocados en las principales tecnologías requeridas en el mercado actual.</p>
               </div>
             </div>
           </div>
           <!-- tarjeta 2 -->
-          <div data-aos="fade-up" data-aos-duration="3000" class="col-lg4 col-md12 mb-4">
+          <div data-aos="fade-up" data-aos-duration="1000" class="col-lg4 col-md12 mb-4">
             <br>
             <div class="card-section border rounded ml-4 mr-4">
               <div class="card-header card-header-second rounded">
-                <h3 align=center class="card-header-title mb-3 mt-1 text-white">Porqué Buzz-Developer</h3>
+                <h3 align=center class="card-header-title mb-3 mt-1 text-white">Misión Buzz</h3>
               </div>
               <div class="card-body text-center">
-                <p class="card-text">Queremos poder entregar una educación académica a los desarrolladores de habla hispana, 
-                  enfocada en entregar capacitaciones de alto nivel y, 
+                <p class="card-text">Queremos poder entregar una educación académica
+                  enfocada en capacitaciones de alto nivel y, 
                   conceptos desde lo más básico hasta lo más avanzado.</p>
                 <br>
-                <button class="btn btn-lg btn-secondary bg-dark">
-                  <a class="text-decoration-none label__color" href="./pages/objetivos.html">Más info</a>
-                </button>
+                <button class="btn btn-sm bg-white"><a class="text-decoration-none font-weight-light titulo__container" href="./404.html">Más info</a></button>
               </div>
             </div>
           </div>
@@ -188,10 +211,10 @@
           data-aos-easing="ease-in-back"
           data-aos-delay="200"
           data-aos-offset="0"
-          data-aos-duration="1500" class="row paddingTB">
+          data-aos-duration="1000" class="row paddingTB">
             <section class="col-lg-12 col-xs-12">
               <h2 class="title__introduction" id="link-carrera">Contacto</h2> 
-              <img src="./assets/img/mensaje72.png" width="200" height="200" alt="">
+              <img src="./assets/img/mensaje72.png" width="150" height="150" alt="imagen de contacto">
               <br>
               <form class="form">
                 <div class="form-group">
@@ -209,7 +232,7 @@
                 </form>
               </form>
             </section>
-            <button type="button" class="btn btn-secondary btn-lg bg-dark titulo__container">Escribime!</button>
+            <button class="btn btn-sm bg-white"><a class="text-decoration-none font-weight-light titulo__container" href="./404.html">Escribime</a></button>
           </div> 
           <img src="assets/img/mundo-logo72.png" width="200" height="200" alt="irving" class="img-fluid">
         </section>
@@ -219,13 +242,13 @@
         <div class="container">
             <div class="row justify-content-center text-dark">
                 <div class="col-lg-8 col-xs-12">
-                    <h4 class="" align=center>Contacto</h4>
+                    <h4 class="contacto" align=center>Contacto</h4>
                 </div>
             </div>
         </div> 
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-8 col-xs-12" align=center>
+                <div class="col-lg-8 col-xs-12 email" align=center>
                     Buzz-Developer@gmail.com <br><br>
                 </div>
             </div>
@@ -235,16 +258,16 @@
                 <div class="col-lg-8 col-xs-12" align=center>
                   <div class="wildcard__class">
                     <a href="https://www.instagram.com/coderhouse/?hl=es-la">
-                      <img src="./assets/img/instagram.png" alt="instagram">
+                      <img src="./assets/img/instagram72.png" alt="instagram">
                     </a>
                     <div class="wildcard__class">
                       <a href="https://github.com/amadeoisella">
-                        <img src="./assets/img/github.png" alt="github">
+                        <img src="./assets/img/github72.png" alt="github">
                       </a>
                     </div>
                     <div class="wildcard__class">
                       <a href="https://www.linkedin.com/school/coderhouse/?originalSubdomain=ar">
-                        <img src="./assets/img/linkedin.png" alt="linkedin">
+                        <img src="./assets/img/linkedin72.png" alt="linkedin">
                       </a>
                     </div>
                 </div>  
@@ -253,8 +276,8 @@
             <br>  
             <div class="container">
                 <div class="row justify-content-center footer_margin">
-                    <div class="col-lg-8 col-xs-12" align=center>
-                      © Todos los derechos reservados 2021
+                    <div class="col-lg-8 col-xs-12 copyright" align=center>
+                      © Copyright 2021
                     </div>
                 </div>
             </div> 
