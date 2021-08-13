@@ -1,6 +1,6 @@
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     *{
-        .biografia__texto--subtitulo, .title__introduction--modalidad, .list-group, .title__introduction, .title__introduction--comunidad, .titulo__container--cards, .titulo__container--cardss, .label__color, .contacto, .card-header-title
+        .biografia__texto--subtitulo, .list-group, .title__introduction--comunidad, .titulo__container--cards, .titulo__container--cardss, .label__color, .contacto, .card-header-title
         {
             font-size: 88%;
         }
@@ -24,8 +24,17 @@
 }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
     *{
-        .email, .copyright{
+        .email, .copyright
+        {
             font-size: 75%;
+        }
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    *{
+        .title__introduction--modalidad, .title__introduction
+        {
+            font-size: 95%;
         }
     }
 }
