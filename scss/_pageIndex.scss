@@ -1,4 +1,3 @@
-/* Genericos 1 */
 $letraBody: 'Poppins';
 $vista:desktop;
 $weightLetraBold: bold;
@@ -20,46 +19,19 @@ $colorWhiteSmoke:#F7EDF6;
 body {background-color: $colorBody; color: $colorWhiteSmoke;}
 .col-lg-12{padding-left:$valorCero; padding-right:$valorCero;}
 
-/* ****************** */
-
 /* PaddingTB de rows */
 .paddingTB{padding-top: 50px;padding-bottom: 50px;}
-
-/* ****************** */
 
 /* Container-Fluid */
 .container-fluid{padding-left:$valorCero; padding-right:$valorCero;}
 
-/* ****************** */
-
 /* Rows */
 .row{margin-right: 0px; margin-left: 0px;}
-
-/* ****************** */
 
 /* Clase Comodín para usos varios */
 .wildcard__class{text-align: $textAlignCenter;}
 
-/* ****************** */
-
-/* If - de vista "Mobile" y "Desktop" */
-  /* @if $vista == desktop { */
-     /* vista desktop  */
-  /* @media only screen and (max-width: 767px){
-    *{
-        font-size: 100%;
-    }
-    }  
- }@else if $vista == mobile { */
-    /* vista mobile */
- /* @media only screen and (min-width: 768px){
-     *{
-         font-size: 100%;
-     }
-    }
-}   */
- 
-/* If - este va en todos los "title__introduction" menos en la "Section Objetivos" */
+/* If */
 .title__introduction {
     @if ($colorPink == #FB54E6){
         color: #FB54E6;
@@ -88,15 +60,12 @@ body {background-color: $colorBody; color: $colorWhiteSmoke;}
     height: 120px;
     background: linear-gradient $linearGradientCard2;
     box-shadow: $boxShadowCard1; }
-  
   /* tarjeta 2 */
   .card-header-second {
     box-shadow: $boxShadowCard2;
     margin: -25px -25px 0px -25px;
     height: 120px;
     background: linear-gradient $linearGradientCard2;}
-  
-  /* efecto shadows para las tarjetas */
   .card-section{
     box-shadow:  $boxShadowLongCardSection;
     &:hover{
