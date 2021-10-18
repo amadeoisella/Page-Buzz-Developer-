@@ -1,6 +1,6 @@
 ### 👋 Welcome to my site 🪐
 
-Hi! Welcome to [my site](https://amadeoisella.github.io/Pagina/). 
+Hi! Welcome to [my site](https://amadeoisella.github.io/Pagina/)
 
 - We are a programming school that seeks to deliver an academic education to developers, focused on delivering high-level training and concepts from the most basic to the most advanced.
 !Do not hesitate to contact us!.
