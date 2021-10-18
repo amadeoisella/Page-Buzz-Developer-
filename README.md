@@ -1,4 +1,4 @@
-### 👋 Welcome to my site 
+### 👋 Welcome to my site 🪐
 
 Hi! Welcome to [my site](https://amadeoisella.github.io/Pagina/). 
 
@@ -7,13 +7,14 @@ Hi! Welcome to [my site](https://amadeoisella.github.io/Pagina/).
 
 - 📫Contact: [Buzz-Developer](https://amadeoisella.github.io/Pagina/pages/contacto.html)
 
-### Built with
+### Built with 🎨
 
 - HTML
+- BOOTSTRAP
 - SCSS
 - CSS
 
-### Active links
+### Active links 📱
 
-- 👨‍💼[Linkedin](https://www.linkedin.com/school/coderhouse/?originalSubdomain=ar)
+- 👨‍💼[Linkedin](www.linkedin.com/in/amadeo-isella-cacciagiú-27a92721a)
 - 👯[Instagram](https://www.instagram.com/coderhouse/?hl=es-la)
